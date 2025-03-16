@@ -1,0 +1,19 @@
+﻿<Window x:Class="TGRooms.PridatItem"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TGRooms"
+        mc:Ignorable="d"
+        Title="PridatItem" Height="200" Width="500">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="31,33,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="cs-cz" Text="Name"/></TextBlock>
+        <TextBox HorizontalAlignment="Left" Margin="31,54,0,0" TextWrapping="Wrap" Text="TextBox" x:Name="name_box" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="156,54,0,0" TextWrapping="Wrap" Text="TextBox" x:Name="value_box" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Add" HorizontalAlignment="Left" Margin="421,53,0,0" VerticalAlignment="Top" Click="Pridat_Item"/>
+        <ComboBox HorizontalAlignment="Left" Margin="287,52,0,0" VerticalAlignment="Top" x:Name="spravce_combo" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="156,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" > <Run Language="cs-cz" Text="Value"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="287,33,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="cs-cz" Text="Room"/></TextBlock>
+
+    </Grid>
+</Window>
